@@ -38,6 +38,22 @@
             </div>
         </section>
 
+        <section class="locations">
+            <div class="container">
+                <h2>Our Locations</h2>
+                <div class="location">
+                    <img :src="require('@/assets/location1.jpg')" alt="Brisbane">
+                    <h3>Brisbane</h3>
+                    <p>123 Main St, Brisbane, QLD 4000</p>
+                </div>
+                <div class="location">
+                    <img :src="require('@/assets/location2.jpg')" alt="Townsville">
+                    <h3>Townsville</h3>
+                    <p>456 Another St, Townsville, QLD 4810</p>
+                </div>
+            </div>
+        </section>
+
         <footer>
             <div class="container">
                 <p>&copy; 2024 Car Rental Service. All rights reserved.</p>
@@ -169,6 +185,39 @@ header nav ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.locations {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.locations h2 {
+    margin-bottom: 40px;
+}
+
+.locations .location {
+    display: inline-block;
+    width: 45%;
+    margin: 0 2.5%;
+}
+
+.locations .location img {
+    max-width: 100%;
+    height: auto;
+}
+
+.locations .location h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.locations .location p {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #666;
 }
 
 footer {
