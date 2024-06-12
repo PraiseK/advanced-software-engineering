@@ -1,16 +1,16 @@
 <template>
   
-  <Landing/>
+  <LandingPage/>
 
 </template>
 
 <script>
-import Landing from './components/Landing.vue'
+import LandingPage from './components/LandingPage.vue'
 
 export default {
   name: 'App',
   components: {
-    Landing
+    LandingPage
   }
 }
 </script>
